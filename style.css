@@ -1,5 +1,5 @@
 /*======================================
-Theme Name: Leeway
+Theme Name: Leeway-child
 Theme URI: https://themezee.com/themes/leeway/
 Description: Leeway is a free, responsive theme designed for small magazine websites or blogs. The theme includes two navigation menus, social icons, a fullwidth featured post slideshow and a flexible Magazine Homepage template. All settings are easy to configure in the Customizer.
 Version: 1.2.8
@@ -12,4 +12,50 @@ Domain Path: /languages/
 License: GNU General Public License v2.0
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 ======================================*/
+@import url('./font.css') ;
+body {
+        font-family: Shabnam;
+}
 
+.site-title {
+        font-family: Shabnam;
+
+
+}
+#header-wrap {
+	background: #bb00b2;
+}
+.widgettitle {
+		background: #00bba7;
+
+	}
+#logo .site-title {
+	
+	
+	font-family: Shabnam;
+}
+.widgettitle span {
+	font-family: Shabnam, Vazir;
+	}
+.main-navigation-menu a {
+	font-family: Shabnam, Vazir;
+}
+.page-title, .entry-title {
+	
+	font-family: Shabnam, Vazir;
+	
+	color: #f21ed1;
+	
+
+}
+span.meta-author,
+span.author.vcard {
+display: none ;
+}
+article .wp-post-image {
+		display: none;
+}
+#comments .comments-title, #respond #reply-title {
+	font-family: Shabnam, Vazir;
+	background: #e411c4;
+}
